@@ -1,5 +1,7 @@
 import Searchbox from "./Searchbox"
 
+
+
 function App() {
 
   let handleclick =()=>{
@@ -8,6 +10,7 @@ function App() {
   return (
     <>
     <Searchbox/>
+    <Infobox/>
     </>
   )
 }
