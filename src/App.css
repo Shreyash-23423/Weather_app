@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.app-bg {
+  min-height: 100vh;
+  min-height: 100dvh; /* mobile-safe */
+  width: 100%;
+
+  background-image: url("/bg-weather.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

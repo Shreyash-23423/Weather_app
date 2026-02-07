@@ -1,17 +1,11 @@
-import Searchbox from "./Searchbox"
-
-
+import Weatherapp from "./Weatherapp.jsx"
 
 function App() {
 
-  let handleclick =()=>{
-    console.log("button was clicked")
-  }
   return (
-    <>
-    <Searchbox/>
-    <Infobox/>
-    </>
+    <div >
+    <Weatherapp/>
+    </div>
   )
 }
 
